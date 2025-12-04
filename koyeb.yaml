@@ -1,0 +1,12 @@
+name: erika-amano-bot
+region: fra
+instance:
+  type: free
+routes:
+  - path: /
+    port: 3000
+env:
+  - name: PORT
+    value: "3000"
+  - name: BOT_NAME
+    value: "Erika Amano"
